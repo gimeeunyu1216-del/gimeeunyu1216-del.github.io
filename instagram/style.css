@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(225, 240, 247);
+}
+
+.header {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.header .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .top .logo img {
+    height: 40px;
+}
+
+.header .top .camera img {
+    height: 30px;
+}
+
+.header .top .message img {
+    height: 30px;
+}
+
+.header .people {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .people .person img {
+    padding: 3px;
+    height: 75px;
+    border-radius: 50%;
+    border: 3px solid rgb(106, 0, 255);
+}
+
+.header .people .person div {
+    text-align: center;
+}
+
+.feeds .feed{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.feeds .feed .top {
+    display: flex;
+    justify-content: space-between;
+}
+.feeds .feed .top .left{
+    display: flex;
+    align-items: center;
+}
+.feeds .feed .top .left img{
+    padding: 3px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid rgb(106, 0, 255);
+}
+.feeds .feed .top .left .name{
+    padding-left: 10px;   
+}
+
+.feeds .feed .top .right{
+    font-size: 30px
+}
+
