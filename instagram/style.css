@@ -29,6 +29,8 @@ body {
     padding-top: 15px;
     display: flex;
     justify-content: space-between;
+    gap: 25px;
+    overflow: auto;
 }
 
 .header .people .person img {
@@ -42,7 +44,7 @@ body {
     text-align: center;
 }
 
-.feeds .feed{
+.feeds .feed {
     background-color: white;
     padding: 20px;
     margin-top: 20px;
@@ -53,21 +55,51 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.feeds .feed .top .left{
+
+.feeds .feed .top .left {
     display: flex;
     align-items: center;
 }
-.feeds .feed .top .left img{
+
+.feeds .feed .top .left img {
     padding: 3px;
     height: 60px;
     border-radius: 50%;
     border: 3px solid rgb(106, 0, 255);
 }
-.feeds .feed .top .left .name{
-    padding-left: 10px;   
+
+.feeds .feed .top .left .text {
+    padding-left: 10px;
 }
 
-.feeds .feed .top .right{
+.feeds .feed .top .left .text .time {
+    font-size: 12px;
+    color: rgb(171, 176, 180);
+}
+
+.feeds .feed .top .right {
     font-size: 30px
 }
 
+.feeds .feed .mid {
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.feeds .feed .mid img {
+    border-radius: 30px;
+}
+
+.feeds .feed .bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.feeds .feed .bottom .left {
+    display: flex;
+    gap: 15px;
+}
