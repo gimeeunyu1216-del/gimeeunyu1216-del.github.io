@@ -1,0 +1,130 @@
+body {
+    background-color: #222;
+    color: #ffffff;
+}
+
+.main .container {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 440px;
+    margin: 0 auto;
+}
+
+.main .container .left .item {
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+.main .container .left .item img {
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+
+}
+
+.main .container .left .item.add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5b5757;
+    border-radius: 50%;
+}
+
+.main .container .left .item.add img {
+    width: 50px;
+    height: 50px;
+}
+
+.main .container .right .banner img {
+    width: 100%;
+}
+
+.main .container .right .explorer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.main .container .right .explorer .first span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main .container .right .explorer .first img {
+    height: 12px;
+    margin-left: 5px;
+}
+
+.main .container .right .explorer .second {
+    color: #928e8e;
+    display: flex;
+    align-items: center;
+}
+
+.main .container .right .explorer .second span.circle {
+    width: 2px;
+    height: 2px;
+    background-color: #928e8e;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.main .container .right .explorer .third {
+    margin-top: 7px;
+    display: flex;
+    gap: 23px;
+}
+.main .container .right .explorer .third .search{
+    width: 100%;
+}
+
+.main .container .right .explorer .third .search input {
+    background-color: #928e8e;
+    height: 35px;
+    border-radius: 13px;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+}
+
+.main .container .right .explorer .third .search input::placeholder {
+    color: #ffffff;
+}
+
+.main .container .right .explorer .third .add{
+    width: 35px;
+    height: 35px;
+    background-color: #928e8e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.main .container .right .explorer .third .add img{
+    height: 20px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2c2d35;
+    width: 440px;
+    margin: 0 auto;
+}
+
+.footer .container .item {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+}
