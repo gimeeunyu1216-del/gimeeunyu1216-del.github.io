@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset ="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
@@ -14,12 +14,14 @@
 
 <body>
     <script>
-        function sayHello() {
-            alert("안녕!")
+        function sayHello(alpha) {
+            for (let i = 1; i <= 10; i = i + 1) {
+                console.log(i);
+            }
         }
     </script>
 
-    <button onclick="sayHello()" class="greeting" style="background-color: red;">인사</button>
+    <button onclick="sayHello(100)" class="greeting" style="background-color: red;">인사</button>
 </body>
 
 </html>

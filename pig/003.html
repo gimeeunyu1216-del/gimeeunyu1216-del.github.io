@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>명언 추천 사이트</title>
+
+    <style>
+        body {
+            font-size: 35px;
+            text-align: center;
+            font-family: Arial;
+            margin-top: 100px;
+            background-color: rgb(238, 206, 117);
+            margin-bottom: 100px;
+        }
+
+
+
+        #quote {
+            font-size: 30px;
+            margin: 20px;
+            font-family: "맑은고딕";
+            font-style: italic;
+        }
+
+
+
+        #author {
+            font-size: 18px;
+            color: gray;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: rgb(25, 66, 26);
+            background-color: rgb(156, 227, 243);
+        }
+
+        .clock {
+            width: 200px;
+            height: 200px;
+            border: 6px solid white;
+            border-radius: 50%;
+            margin: 40px auto;
+            position: relative;
+        }
+
+        .hand {
+            position: absolute;
+            bottom: 50%;
+            left: 50%;
+            transform-origin: bottom;
+            background: white;
+        }
+
+        .hour {
+            width: 6px;
+            height: 50px;
+        }
+
+        .minute {
+            width: 4px;
+            height: 70px;
+        }
+
+        .second {
+            width: 2px;
+            height: 90px;
+            background: red;
+        }
+
+        .center-dot {
+            width: 10px;
+            height: 10px;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>오늘의 명언</h1>
+
+    <p id="quote">버튼을 누르면 명언이 나옵니다.</p>
+    <p id="author"></p>
+
+    <button onclick="newQuote()">오늘의 명언 보기</button>
+    <div class="clock">
+        <div class="hand hour" id="hour"></div>
+        <div class="hand minute" id="minute"></div>
+        <div class="hand second" id="second"></div>
+        <div class="center-dot"></div>
+    </div>
+
+    <script>
+
+        const quotes = [
+
+            { quote: "성공의 비결은 시작하는 것이다.", author: "마크 트웨인" },
+            { quote: "나는 실패한 것이 아니라 1만 가지 방법을 발견한 것이다.", author: "토머스 에디슨" },
+            { quote: "미래는 꿈을 믿는 사람들의 것이다.", author: "엘리너 루스벨트" },
+            { quote: "행동은 모든 성공의 기본 열쇠이다.", author: "파블로 피카소" },
+            { quote: "불가능은 사실이 아니라 의견일 뿐이다.", author: "무하마드 알리" },
+            { quote: "배우기를 멈추는 순간 늙기 시작한다.", author: "헨리 포드" },
+            { quote: "행복은 습관이다.", author: "아리스토텔레스" },
+            { quote: "배움에는 끝이 없다.", author: "공자" },
+            { quote: "포기하지 않는 것이 가장 큰 재능이다.", author: "윈스턴 처칠" },
+            { quote: "기회는 준비된 사람에게 온다.", author: "루이 파스퇴르" },
+            { quote: "노력은 결코 배신하지 않는다.", author: "나폴레옹" },
+            { quote: "오늘 할 수 있는 일을 내일로 미루지 마라.", author: "벤자민 프랭클린" },
+            { quote: "위대한 일은 작은 일들이 모여 이루어진다.", author: "빈센트 반 고흐" },
+            { quote: "성공은 열정을 잃지 않고 실패를 거듭하는 능력이다.", author: "윈스턴 처칠" },
+            { quote: "꿈을 크게 가져라.", author: "오프라 윈프리" },
+            { quote: "생각하는 대로 살지 않으면 사는 대로 생각하게 된다.", author: "폴 발레리" },
+            { quote: "성공은 준비와 기회의 만남이다.", author: "세네카" },
+            { quote: "용기는 두려움을 이기는 것이다.", author: "넬슨 만델라" },
+            { quote: "지식에 대한 투자는 최고의 이자를 낸다.", author: "벤자민 프랭클린" },
+            { quote: "자신을 믿어라.", author: "랄프 왈도 에머슨" },
+            { quote: "노력 없는 성공은 없다.", author: "소포클레스" },
+            { quote: "행복은 선택이다.", author: "달라이 라마" },
+            { quote: "오늘 하루도 최선을 다하라.", author: "마더 테레사" },
+            { quote: "상상력은 지식보다 중요하다.", author: "알버트 아인슈타인" },
+            { quote: "성공하려면 먼저 자신을 믿어야 한다.", author: "니코스 카잔차키스" }
+
+        ];
+
+        function newQuote() {
+
+            let random = Math.floor(Math.random() * quotes.length);
+
+            document.getElementById("quote").innerText = quotes[random].quote;
+            document.getElementById("author").innerText = "- " + quotes[random].author;
+
+        }
+        function updateAnalogClock() {
+
+            let now = new Date();
+
+            let sec = now.getSeconds();
+            let min = now.getMinutes();
+            let hr = now.getHours();
+
+            let secDeg = sec * 6;
+            let minDeg = min * 6 + sec * 0.1;
+            let hrDeg = hr * 30 + min * 0.5;
+
+            document.getElementById("second").style.transform =
+                "translateX(-50%) rotate(" + secDeg + "deg)";
+
+            document.getElementById("minute").style.transform =
+                "translateX(-50%) rotate(" + minDeg + "deg)";
+
+            document.getElementById("hour").style.transform =
+                "translateX(-50%) rotate(" + hrDeg + "deg)";
+        }
+
+        setInterval(updateAnalogClock, 1000);
+
+    </script>
+
+</body>
+
+</html>
