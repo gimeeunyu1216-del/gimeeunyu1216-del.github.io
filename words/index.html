@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            padding: 15px;
+        }
+
+        .word {
+            font-size: 60px;
+            background-color: rgba(174, 127, 239, 0.838);
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding-top: 15px;
+            margin-bottom: 20px;
+            height: 105px;
+        }
+
+        .characters {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 5px;
+        }
+
+        .characters button {
+            padding: 15px 0;
+            background-color: rgb(229, 117, 239);
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="word">*****</div>
+        <div class="characters">
+            <button onclick="onButtonClick('a')">a</button>
+            <button onclick="onButtonClick('b')">b</button>
+            <button onclick="onButtonClick('c')">c</button>
+            <button onclick="onButtonClick('d')">d</button>
+            <button onclick="onButtonClick('e')">e</button>
+            <button onclick="onButtonClick('f')">f</button>
+            <button onclick="onButtonClick('g')">g</button>
+            <button onclick="onButtonClick('h')">h</button>
+            <button onclick="onButtonClick('i')">i</button>
+            <button onclick="onButtonClick('j')">j</button>
+            <button onclick="onButtonClick('k')">k</button>
+            <button onclick="onButtonClick('l')">l</button>
+            <button onclick="onButtonClick('m')">m</button>
+            <button onclick="onButtonClick('n')">n</button>
+            <button onclick="onButtonClick('o')">o</button>
+            <button onclick="onButtonClick('p')">p</button>
+            <button onclick="onButtonClick('q')">q</button>
+            <button onclick="onButtonClick('r')">r</button>
+            <button onclick="onButtonClick('s')">s</button>
+            <button onclick="onButtonClick('t')">t</button>
+            <button onclick="onButtonClick('u')">u</button>
+            <button onclick="onButtonClick('v')">v</button>
+            <button onclick="onButtonClick('w')">w</button>
+            <button onclick="onButtonClick('x')">x</button>
+            <button onclick="onButtonClick('y')">y</button>
+            <button onclick="onButtonClick('z')">z</button>
+        </div>
+    </div>
+
+    <script>
+        let answer = "mango";
+        let before = "";
+
+        function onButtonClick(x) {
+            let now = ""
+
+            for (let i = 0; i < 5; i++) {
+                if (answer.charAt(i) === x) {
+                    now = now + x;
+                    // console.log(i, answer.charAt(i), x, '같아요')
+                } else {
+                    now = now + "*";
+                    // console.log(i, answer.charAt(i), x, '달라요')
+                }
+            }
+
+            let result = ""
+
+            if (before === "") {
+                result = now;
+            } else {
+                for (let i = 0; i < 5; i++) {
+                    if (before.charAt(i) !== "*") {
+                        result = result + before.charAt(i);
+                    } else if (now.charAt(i) !== "*") {
+                        result = result + now.charAt(i);
+                    } else {
+                        result = result + "*";
+                    }
+                }
+            }
+
+            before = result;
+
+            let element = document.querySelector(".word")
+            element.innerText = result;
+
+            if (result === answer) {
+                alert("정답입니다. " + answer);
+                location.reload(); // 새로고침
+            }
+        }
+    </script>
+</body>
+
+</html>
