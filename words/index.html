@@ -6,18 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body {
+            margin: 0;
+        }
+
         .container {
             padding: 15px;
         }
 
+        .header {
+            margin-bottom: 15px;
+
+        }
+
+        .header .title img {
+            width: 100%;
+
+        }
+
+        .header .points {
+            display: flex;
+            justify-content: space-between;
+        }
+
         .word {
-            font-size: 60px;
+            font-size: 38px;
             background-color: rgba(174, 127, 239, 0.838);
             color: rgb(0, 0, 0);
             text-align: center;
             padding-top: 15px;
             margin-bottom: 20px;
-            height: 105px;
+            height: 55px;
         }
 
         .characters {
@@ -28,16 +47,26 @@
         }
 
         .characters button {
-            padding: 15px 0;
+            padding: 12px 0;
             background-color: rgb(229, 117, 239);
-            width: 100px;
+            font-size: 23px;
+            width: 47px;
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <div class="word">*****</div>
+        <div class="header">
+            <div class="title">
+                <img src="banner.png">
+            </div>
+            <div class="points">
+                <div class="remain"></div>
+                <div class="total"></div>
+            </div>
+        </div>
+        <div class="word"></div>
         <div class="characters">
             <button onclick="onButtonClick('a')">a</button>
             <button onclick="onButtonClick('b')">b</button>
@@ -69,36 +98,79 @@
     </div>
 
     <script>
-        let answer = "mango";
-        let before = "";
+        let remainPoints = 100;
+        let myPoints = getMyPoints();
+
+        let words = [
+            "apple",
+            "banana",
+            "orange",
+            "grape",
+            "peach",
+            "cherry",
+            "strawberry",
+            "blueberry",
+            "watermelon",
+            "melon",
+            "pineapple",
+            "mango",
+            "kiwi",
+            "pear",
+            "plum",
+            "lemon",
+            "lime",
+            "coconut",
+        ];
+
+        let random = Math.floor(Math.random() * words.length); // 0부터 2까지 중 무작위 1개
+        let answer = words[random]; // 이번 문제의 정답
+        let before = "*".repeat(answer.length); // 이전에 입력했던 결과
+
+        document.querySelector(".word").innerText = "*".repeat(answer.length);
+        document.querySelector(".remain").innerText = "남은 점수: " + remainPoints;
+        document.querySelector(".total").innerText = "나의 점수: " + myPoints;
+
+        function getMyPoints() {
+            let point = localStorage.getItem("myPoints");
+            return Number(point);
+        }
+
+        function saveMyPoints(p) {
+            localStorage.setItem("myPoints", myPoints + p);
+        }
 
         function onButtonClick(x) {
-            let now = ""
+            let now = "";
 
-            for (let i = 0; i < 5; i++) {
-                if (answer.charAt(i) === x) {
+            for (let i = 0; i < answer.length; i++) {
+                if (answer.charAt(i) === x) { // 같을 때
                     now = now + x;
-                    // console.log(i, answer.charAt(i), x, '같아요')
-                } else {
+                } else { // 다를 때
                     now = now + "*";
-                    // console.log(i, answer.charAt(i), x, '달라요')
                 }
             }
 
-            let result = ""
+            let result = "";
 
-            if (before === "") {
-                result = now;
-            } else {
-                for (let i = 0; i < 5; i++) {
-                    if (before.charAt(i) !== "*") {
-                        result = result + before.charAt(i);
-                    } else if (now.charAt(i) !== "*") {
-                        result = result + now.charAt(i);
-                    } else {
-                        result = result + "*";
-                    }
+            for (let i = 0; i < answer.length; i++) {
+                if (now.charAt(i) === "*" && before.charAt(i) === "*") {
+                    result = result + "*";
+                } else if (now.charAt(i) !== "*") {
+                    result = result + now.charAt(i);
+                } else if (before.charAt(i) !== "*") {
+                    result = result + before.charAt(i);
                 }
+            }
+
+            if (before === result) {
+                remainPoints = remainPoints - 10;
+
+                if (remainPoints === 0) {
+                    window.alert("실패했습니다. 다시 시작합니다.");
+                    location.reload(); // 새로고침
+                }
+
+                document.querySelector(".remain").innerText = "남은 점수: " + remainPoints;
             }
 
             before = result;
@@ -108,6 +180,9 @@
 
             if (result === answer) {
                 alert("정답입니다. " + answer);
+
+                saveMyPoints(remainPoints);
+
                 location.reload(); // 새로고침
             }
         }
