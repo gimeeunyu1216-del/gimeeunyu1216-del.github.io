@@ -1,0 +1,19 @@
+ body {
+     margin: 0;
+     background-color: black;
+     color: aliceblue;
+ }
+
+ .container {
+     padding: 15px;
+ }
+
+ .header {
+     margin-bottom: 15px;
+
+ }
+
+ .header .title img {
+     width: 100%;
+
+ }
