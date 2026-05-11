@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="style.css">
     <style>
         h2 {
-              border: 1px solid white;
-              padding: 10px;
-              margin-bottom: 0;
+            border: 1px solid white;
+            padding: 10px;
+            margin-bottom: 0;
         }
 
         table {
             width: 100%;
         }
 
-        table th, table td{
+        table th,
+        table td {
             border: 1px solid white;
             padding: 10px;
             text-align: center;
@@ -36,7 +37,7 @@
         </div>
         <div>
             <h2 style="text-align:center;">🏆 랭킹</h2>
-            <table>
+            <table id="data">
                 <thead>
                     <tr>
                         <th>순위</th>
@@ -45,29 +46,52 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="rank-1">
-                        <td>1</td>
-                        <td>PlayerOne</td>
-                        <td>1500</td>
-                    </tr>
-                    <tr class="rank-2">
-                        <td>2</td>
-                        <td>ProGamer</td>
-                        <td>1300</td>
-                    </tr>
-                    <tr class="rank-3">
-                        <td>3</td>
-                        <td>NoobMaster</td>
-                        <td>1100</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>은유</td>
-                        <td>260</td>
-                    </tr>
                 </tbody>
+            </table>
         </div>
     </div>
+
+    <script>
+        let champs = [
+            {
+                nickname: "비에고",
+                points: 500,
+            }
+            , {
+                nickname: "아리",
+                points: 410
+            }
+            , {
+                nickname: "아트록스",
+                points: 300
+            }
+            , {
+                nickname: "에코",
+                points: 200
+            }
+            , {
+                nickname: "신짜오",
+                points: 150
+            }
+        ];
+
+
+        let b = "";
+
+        for (let id = 0; id < champs.length; id++) {
+            b = b + `
+            <tr>
+                <td>${id + 1}</td>
+                <td>${champs[id].nickname}</td>
+                <td>${champs[id].points}</td>
+            </tr>
+            `;
+        }
+
+        document.querySelector("#data")
+            .querySelector("tbody")
+            .innerHTML = b;
+    </script>
 </body>
 
 </html>
