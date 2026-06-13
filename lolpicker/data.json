@@ -1,0 +1,1617 @@
+[
+    {
+        "name": "Garen",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Garen.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 3,
+        "nameKo": "가렌"
+    },
+    {
+        "name": "Aatrox",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Aatrox.png",
+        "lines": [
+            "top",
+            "jungle"
+        ],
+        "difficulty": 8,
+        "nameKo": "아트록스"
+    },
+    {
+        "name": "Ahri",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Ahri.png",
+        "lines": [
+            "mid"
+        ],
+        "difficulty": 5,
+        "nameKo": "아리"
+    },
+    {
+        "name": "Akali",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Akali.png",
+        "lines": [
+            "mid",
+            "top"
+        ],
+        "difficulty": 9,
+        "nameKo": "아칼리"
+    },
+    {
+        "name": "Akshan",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Akshan.png",
+        "lines": [
+            "mid",
+            "top"
+        ],
+        "difficulty": 7,
+        "nameKo": "아크샨"
+    },
+    {
+        "name": "Alistar",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Alistar.png",
+        "lines": [
+            "support"
+        ],
+        "difficulty": 4,
+        "nameKo": "알리스타"
+    },
+    {
+        "name": "Amumu",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Amumu.png",
+        "lines": [
+            "jungle",
+            "support"
+        ],
+        "difficulty": 3,
+        "nameKo": "아무무"
+    },
+    {
+        "name": "Anivia",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Anivia.png",
+        "lines": [
+            "mid"
+        ],
+        "difficulty": 8,
+        "nameKo": "애니비아"
+    },
+    {
+        "name": "Annie",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Annie.png",
+        "lines": [
+            "mid",
+            "support"
+        ],
+        "difficulty": 2,
+        "nameKo": "애니"
+    },
+    {
+        "name": "Aphelios",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Aphelios.png",
+        "lines": [
+            "adc"
+        ],
+        "difficulty": 10,
+        "nameKo": "아펠리오스"
+    },
+    {
+        "name": "Ashe",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Ashe.png",
+        "lines": [
+            "adc",
+            "support"
+        ],
+        "difficulty": 4,
+        "nameKo": "애쉬"
+    },
+    {
+        "name": "AurelionSol",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/AurelionSol.png",
+        "lines": [
+            "mid"
+        ],
+        "difficulty": 7,
+        "nameKo": "아우렐리온 솔"
+    },
+    {
+        "name": "Azir",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Azir.png",
+        "lines": [
+            "mid"
+        ],
+        "difficulty": 10,
+        "nameKo": "아지르"
+    },
+    {
+        "name": "Bard",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Bard.png",
+        "lines": [
+            "support"
+        ],
+        "difficulty": 9,
+        "nameKo": "바드"
+    },
+    {
+        "name": "Belveth",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Belveth.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 8,
+        "nameKo": "벨베스"
+    },
+    {
+        "name": "Blitzcrank",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Blitzcrank.png",
+        "lines": [
+            "support"
+        ],
+        "difficulty": 5,
+        "nameKo": "블리츠크랭크"
+    },
+    {
+        "name": "Brand",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Brand.png",
+        "lines": [
+            "support",
+            "mid"
+        ],
+        "difficulty": 4,
+        "nameKo": "브랜드"
+    },
+    {
+        "name": "Braum",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Braum.png",
+        "lines": [
+            "support"
+        ],
+        "difficulty": 4,
+        "nameKo": "브라움"
+    },
+    {
+        "name": "Briar",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Briar.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 6,
+        "nameKo": "브라이어"
+    },
+    {
+        "name": "Caitlyn",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Caitlyn.png",
+        "lines": [
+            "adc"
+        ],
+        "difficulty": 5,
+        "nameKo": "케이틀린"
+    },
+    {
+        "name": "Camille",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Camille.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 8,
+        "nameKo": "카밀"
+    },
+    {
+        "name": "Cassiopeia",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Cassiopeia.png",
+        "lines": [
+            "mid"
+        ],
+        "difficulty": 9,
+        "nameKo": "카시오페아"
+    },
+    {
+        "name": "Chogath",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Chogath.png",
+        "lines": [
+            "top",
+            "mid"
+        ],
+        "difficulty": 5,
+        "nameKo": "초가스"
+    },
+    {
+        "name": "Corki",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Corki.png",
+        "lines": [
+            "mid",
+            "adc"
+        ],
+        "difficulty": 6,
+        "nameKo": "코르키"
+    },
+    {
+        "name": "Darius",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Darius.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 4,
+        "nameKo": "다리우스"
+    },
+    {
+        "name": "Diana",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Diana.png",
+        "lines": [
+            "jungle",
+            "mid"
+        ],
+        "difficulty": 6,
+        "nameKo": "다이애나"
+    },
+    {
+        "name": "DrMundo",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/DrMundo.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 3,
+        "nameKo": "문도 박사"
+    },
+    {
+        "name": "Draven",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Draven.png",
+        "lines": [
+            "adc"
+        ],
+        "difficulty": 8,
+        "nameKo": "드레이븐"
+    },
+    {
+        "name": "Ekko",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Ekko.png",
+        "lines": [
+            "mid",
+            "jungle"
+        ],
+        "difficulty": 8,
+        "nameKo": "에코"
+    },
+    {
+        "name": "Elise",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Elise.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 9,
+        "nameKo": "엘리스"
+    },
+    {
+        "name": "Evelynn",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Evelynn.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 7,
+        "nameKo": "이블린"
+    },
+    {
+        "name": "Ezreal",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Ezreal.png",
+        "lines": [
+            "adc"
+        ],
+        "difficulty": 7,
+        "nameKo": "이즈리얼"
+    },
+    {
+        "name": "Fiddlesticks",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Fiddlesticks.png",
+        "lines": [
+            "jungle",
+            "support"
+        ],
+        "difficulty": 6,
+        "nameKo": "피들스틱"
+    },
+    {
+        "name": "Fiora",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Fiora.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 9,
+        "nameKo": "피오라"
+    },
+    {
+        "name": "Fizz",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Fizz.png",
+        "lines": [
+            "mid"
+        ],
+        "difficulty": 7,
+        "nameKo": "피즈"
+    },
+    {
+        "name": "Galio",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Galio.png",
+        "lines": [
+            "mid",
+            "support"
+        ],
+        "difficulty": 5,
+        "nameKo": "갈리오"
+    },
+    {
+        "name": "Gangplank",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Gangplank.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 10,
+        "nameKo": "갱플랭크"
+    },
+    {
+        "name": "Gragas",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Gragas.png",
+        "lines": [
+            "top",
+            "jungle"
+        ],
+        "difficulty": 6,
+        "nameKo": "그라가스"
+    },
+    {
+        "name": "Graves",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Graves.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 7,
+        "nameKo": "그레이브즈"
+    },
+    {
+        "name": "Gwen",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Gwen.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 7,
+        "nameKo": "그웬"
+    },
+    {
+        "name": "Hecarim",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Hecarim.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 5,
+        "nameKo": "헤카림"
+    },
+    {
+        "name": "Heimerdinger",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Heimerdinger.png",
+        "lines": [
+            "mid",
+            "top",
+            "support"
+        ],
+        "difficulty": 7,
+        "nameKo": "하이머딩거"
+    },
+    {
+        "name": "Hwei",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Hwei.png",
+        "lines": [
+            "mid"
+        ],
+        "difficulty": 9,
+        "nameKo": "흐웨이"
+    },
+    {
+        "name": "Illaoi",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Illaoi.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 6,
+        "nameKo": "일라오이"
+    },
+    {
+        "name": "Irelia",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Irelia.png",
+        "lines": [
+            "top",
+            "mid"
+        ],
+        "difficulty": 9,
+        "nameKo": "이렐리아"
+    },
+    {
+        "name": "Ivern",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Ivern.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 7,
+        "nameKo": "아이번"
+    },
+    {
+        "name": "Janna",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Janna.png",
+        "lines": [
+            "support"
+        ],
+        "difficulty": 5,
+        "nameKo": "잔나"
+    },
+    {
+        "name": "JarvanIV",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/JarvanIV.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 6,
+        "nameKo": "자르반 4세"
+    },
+    {
+        "name": "Jax",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Jax.png",
+        "lines": [
+            "top",
+            "jungle"
+        ],
+        "difficulty": 6,
+        "nameKo": "잭스"
+    },
+    {
+        "name": "Jayce",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Jayce.png",
+        "lines": [
+            "top",
+            "mid"
+        ],
+        "difficulty": 8,
+        "nameKo": "제이스"
+    },
+    {
+        "name": "Jhin",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Jhin.png",
+        "lines": [
+            "adc"
+        ],
+        "difficulty": 6,
+        "nameKo": "진"
+    },
+    {
+        "name": "Jinx",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Jinx.png",
+        "lines": [
+            "adc"
+        ],
+        "difficulty": 4,
+        "nameKo": "징크스"
+    },
+    {
+        "name": "KSante",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/KSante.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 8,
+        "nameKo": "크산테"
+    },
+    {
+        "name": "KaiSa",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Kaisa.png",
+        "lines": [
+            "adc"
+        ],
+        "difficulty": 7,
+        "nameKo": "카이사"
+    },
+    {
+        "name": "Kalista",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Kalista.png",
+        "lines": [
+            "adc"
+        ],
+        "difficulty": 9,
+        "nameKo": "칼리스타"
+    },
+    {
+        "name": "Karma",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Karma.png",
+        "lines": [
+            "support",
+            "mid"
+        ],
+        "difficulty": 5,
+        "nameKo": "카르마"
+    },
+    {
+        "name": "Karthus",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Karthus.png",
+        "lines": [
+            "jungle",
+            "mid"
+        ],
+        "difficulty": 7,
+        "nameKo": "카서스"
+    },
+    {
+        "name": "Kassadin",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Kassadin.png",
+        "lines": [
+            "mid"
+        ],
+        "difficulty": 8,
+        "nameKo": "카사딘"
+    },
+    {
+        "name": "Katarina",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Katarina.png",
+        "lines": [
+            "mid"
+        ],
+        "difficulty": 9,
+        "nameKo": "카타리나"
+    },
+    {
+        "name": "Kayle",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Kayle.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 6,
+        "nameKo": "케일"
+    },
+    {
+        "name": "Kayn",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Kayn.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 8,
+        "nameKo": "케인"
+    },
+    {
+        "name": "Kennen",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Kennen.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 7,
+        "nameKo": "케넨"
+    },
+    {
+        "name": "KhaZix",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Khazix.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 7,
+        "nameKo": "카직스"
+    },
+    {
+        "name": "Kindred",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Kindred.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 8,
+        "nameKo": "킨드레드"
+    },
+    {
+        "name": "Kled",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Kled.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 7,
+        "nameKo": "클레드"
+    },
+    {
+        "name": "KogMaw",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/KogMaw.png",
+        "lines": [
+            "adc"
+        ],
+        "difficulty": 6,
+        "nameKo": "코그모"
+    },
+    {
+        "name": "LeBlanc",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Leblanc.png",
+        "lines": [
+            "mid"
+        ],
+        "difficulty": 9,
+        "nameKo": "르블랑"
+    },
+    {
+        "name": "LeeSin",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/LeeSin.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 9,
+        "nameKo": "리 신"
+    },
+    {
+        "name": "Leona",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Leona.png",
+        "lines": [
+            "support"
+        ],
+        "difficulty": 4,
+        "nameKo": "레오나"
+    },
+    {
+        "name": "Lillia",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Lillia.png",
+        "lines": [
+            "jungle",
+            "top"
+        ],
+        "difficulty": 7,
+        "nameKo": "릴리아"
+    },
+    {
+        "name": "Lissandra",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Lissandra.png",
+        "lines": [
+            "mid"
+        ],
+        "difficulty": 6,
+        "nameKo": "리산드라"
+    },
+    {
+        "name": "Lucian",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Lucian.png",
+        "lines": [
+            "adc",
+            "mid"
+        ],
+        "difficulty": 7,
+        "nameKo": "루시안"
+    },
+    {
+        "name": "Lulu",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Lulu.png",
+        "lines": [
+            "support"
+        ],
+        "difficulty": 5,
+        "nameKo": "룰루"
+    },
+    {
+        "name": "Lux",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Lux.png",
+        "lines": [
+            "mid",
+            "support"
+        ],
+        "difficulty": 4,
+        "nameKo": "럭스"
+    },
+    {
+        "name": "Malphite",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Malphite.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 2,
+        "nameKo": "말파이트"
+    },
+    {
+        "name": "Malzahar",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Malzahar.png",
+        "lines": [
+            "mid"
+        ],
+        "difficulty": 4,
+        "nameKo": "말자하"
+    },
+    {
+        "name": "Maokai",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Maokai.png",
+        "lines": [
+            "jungle",
+            "support",
+            "top"
+        ],
+        "difficulty": 4,
+        "nameKo": "마오카이"
+    },
+    {
+        "name": "MasterYi",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/MasterYi.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 4,
+        "nameKo": "마스터 이"
+    },
+    {
+        "name": "Mel",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Mel.png",
+        "lines": [
+            "mid",
+            "support"
+        ],
+        "difficulty": 6,
+        "nameKo": "멜"
+    },
+    {
+        "name": "Milio",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Milio.png",
+        "lines": [
+            "support"
+        ],
+        "difficulty": 5,
+        "nameKo": "밀리오"
+    },
+    {
+        "name": "MissFortune",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/MissFortune.png",
+        "lines": [
+            "adc"
+        ],
+        "difficulty": 3,
+        "nameKo": "미스 포츈"
+    },
+    {
+        "name": "Mordekaiser",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Mordekaiser.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 5,
+        "nameKo": "모데카이저"
+    },
+    {
+        "name": "Morgana",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Morgana.png",
+        "lines": [
+            "support",
+            "mid"
+        ],
+        "difficulty": 4,
+        "nameKo": "모르가나"
+    },
+    {
+        "name": "Naafiri",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Naafiri.png",
+        "lines": [
+            "mid",
+            "jungle"
+        ],
+        "difficulty": 5,
+        "nameKo": "나피리"
+    },
+    {
+        "name": "Nami",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Nami.png",
+        "lines": [
+            "support"
+        ],
+        "difficulty": 5,
+        "nameKo": "나미"
+    },
+    {
+        "name": "Nasus",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Nasus.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 2,
+        "nameKo": "나서스"
+    },
+    {
+        "name": "Nautilus",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Nautilus.png",
+        "lines": [
+            "support"
+        ],
+        "difficulty": 4,
+        "nameKo": "노틸러스"
+    },
+    {
+        "name": "Neeko",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Neeko.png",
+        "lines": [
+            "mid",
+            "support"
+        ],
+        "difficulty": 6,
+        "nameKo": "니코"
+    },
+    {
+        "name": "Nidalee",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Nidalee.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 9,
+        "nameKo": "니달리"
+    },
+    {
+        "name": "Nilah",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Nilah.png",
+        "lines": [
+            "adc"
+        ],
+        "difficulty": 8,
+        "nameKo": "닐라"
+    },
+    {
+        "name": "Nocturne",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Nocturne.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 5,
+        "nameKo": "녹턴"
+    },
+    {
+        "name": "Nunu",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Nunu.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 3,
+        "nameKo": "누누와 윌럼프"
+    },
+    {
+        "name": "Olaf",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Olaf.png",
+        "lines": [
+            "top",
+            "jungle"
+        ],
+        "difficulty": 4,
+        "nameKo": "올라프"
+    },
+    {
+        "name": "Orianna",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Orianna.png",
+        "lines": [
+            "mid"
+        ],
+        "difficulty": 7,
+        "nameKo": "오리아나"
+    },
+    {
+        "name": "Ornn",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Ornn.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 5,
+        "nameKo": "오른"
+    },
+    {
+        "name": "Pantheon",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Pantheon.png",
+        "lines": [
+            "top",
+            "mid",
+            "support"
+        ],
+        "difficulty": 5,
+        "nameKo": "판테온"
+    },
+    {
+        "name": "Poppy",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Poppy.png",
+        "lines": [
+            "top",
+            "jungle"
+        ],
+        "difficulty": 5,
+        "nameKo": "뽀삐"
+    },
+    {
+        "name": "Pyke",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Pyke.png",
+        "lines": [
+            "support"
+        ],
+        "difficulty": 8,
+        "nameKo": "파이크"
+    },
+    {
+        "name": "Qiyana",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Qiyana.png",
+        "lines": [
+            "mid"
+        ],
+        "difficulty": 9,
+        "nameKo": "키아나"
+    },
+    {
+        "name": "Quinn",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Quinn.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 7,
+        "nameKo": "퀸"
+    },
+    {
+        "name": "Rakan",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Rakan.png",
+        "lines": [
+            "support"
+        ],
+        "difficulty": 7,
+        "nameKo": "라칸"
+    },
+    {
+        "name": "Rammus",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Rammus.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 3,
+        "nameKo": "람머스"
+    },
+    {
+        "name": "RekSai",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/RekSai.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 7,
+        "nameKo": "렉사이"
+    },
+    {
+        "name": "Rell",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Rell.png",
+        "lines": [
+            "support",
+            "jungle"
+        ],
+        "difficulty": 6,
+        "nameKo": "렐"
+    },
+    {
+        "name": "Renata",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Renata.png",
+        "lines": [
+            "support"
+        ],
+        "difficulty": 7,
+        "nameKo": "레나타 글라스크"
+    },
+    {
+        "name": "Renekton",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Renekton.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 4,
+        "nameKo": "레넥톤"
+    },
+    {
+        "name": "Rengar",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Rengar.png",
+        "lines": [
+            "jungle",
+            "top"
+        ],
+        "difficulty": 8,
+        "nameKo": "렝가"
+    },
+    {
+        "name": "Riven",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Riven.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 9,
+        "nameKo": "리븐"
+    },
+    {
+        "name": "Rumble",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Rumble.png",
+        "lines": [
+            "top",
+            "mid"
+        ],
+        "difficulty": 7,
+        "nameKo": "럼블"
+    },
+    {
+        "name": "Ryze",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Ryze.png",
+        "lines": [
+            "mid",
+            "top"
+        ],
+        "difficulty": 8,
+        "nameKo": "라이즈"
+    },
+    {
+        "name": "Samira",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Samira.png",
+        "lines": [
+            "adc"
+        ],
+        "difficulty": 8,
+        "nameKo": "사미라"
+    },
+    {
+        "name": "Sejuani",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Sejuani.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 5,
+        "nameKo": "세주아니"
+    },
+    {
+        "name": "Senna",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Senna.png",
+        "lines": [
+            "support",
+            "adc"
+        ],
+        "difficulty": 7,
+        "nameKo": "세나"
+    },
+    {
+        "name": "Seraphine",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Seraphine.png",
+        "lines": [
+            "support",
+            "mid"
+        ],
+        "difficulty": 4,
+        "nameKo": "세라핀"
+    },
+    {
+        "name": "Sett",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Sett.png",
+        "lines": [
+            "top",
+            "support"
+        ],
+        "difficulty": 4,
+        "nameKo": "세트"
+    },
+    {
+        "name": "Shaco",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Shaco.png",
+        "lines": [
+            "jungle",
+            "support"
+        ],
+        "difficulty": 8,
+        "nameKo": "샤코"
+    },
+    {
+        "name": "Shen",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Shen.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 5,
+        "nameKo": "쉔"
+    },
+    {
+        "name": "Shyvana",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Shyvana.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 4,
+        "nameKo": "쉬바나"
+    },
+    {
+        "name": "Singed",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Singed.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 7,
+        "nameKo": "신지드"
+    },
+    {
+        "name": "Sion",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Sion.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 4,
+        "nameKo": "사이온"
+    },
+    {
+        "name": "Sivir",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Sivir.png",
+        "lines": [
+            "adc"
+        ],
+        "difficulty": 4,
+        "nameKo": "시비르"
+    },
+    {
+        "name": "Skarner",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Skarner.png",
+        "lines": [
+            "jungle",
+            "top"
+        ],
+        "difficulty": 5,
+        "nameKo": "스카너"
+    },
+    {
+        "name": "Smolder",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Smolder.png",
+        "lines": [
+            "adc"
+        ],
+        "difficulty": 6,
+        "nameKo": "스몰더"
+    },
+    {
+        "name": "Sona",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Sona.png",
+        "lines": [
+            "support"
+        ],
+        "difficulty": 3,
+        "nameKo": "소나"
+    },
+    {
+        "name": "Soraka",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Soraka.png",
+        "lines": [
+            "support"
+        ],
+        "difficulty": 3,
+        "nameKo": "소라카"
+    },
+    {
+        "name": "Swain",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Swain.png",
+        "lines": [
+            "support",
+            "mid"
+        ],
+        "difficulty": 6,
+        "nameKo": "스웨인"
+    },
+    {
+        "name": "Sylas",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Sylas.png",
+        "lines": [
+            "mid",
+            "jungle"
+        ],
+        "difficulty": 8,
+        "nameKo": "사일러스"
+    },
+    {
+        "name": "Syndra",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Syndra.png",
+        "lines": [
+            "mid"
+        ],
+        "difficulty": 7,
+        "nameKo": "신드라"
+    },
+    {
+        "name": "TahmKench",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/TahmKench.png",
+        "lines": [
+            "support",
+            "top"
+        ],
+        "difficulty": 5,
+        "nameKo": "탐 켄치"
+    },
+    {
+        "name": "Taliyah",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Taliyah.png",
+        "lines": [
+            "mid",
+            "jungle"
+        ],
+        "difficulty": 7,
+        "nameKo": "탈리야"
+    },
+    {
+        "name": "Talon",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Talon.png",
+        "lines": [
+            "mid",
+            "jungle"
+        ],
+        "difficulty": 7,
+        "nameKo": "탈론"
+    },
+    {
+        "name": "Taric",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Taric.png",
+        "lines": [
+            "support"
+        ],
+        "difficulty": 5,
+        "nameKo": "타릭"
+    },
+    {
+        "name": "Teemo",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Teemo.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 4,
+        "nameKo": "티모"
+    },
+    {
+        "name": "Thresh",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Thresh.png",
+        "lines": [
+            "support"
+        ],
+        "difficulty": 8,
+        "nameKo": "쓰레쉬"
+    },
+    {
+        "name": "Tristana",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Tristana.png",
+        "lines": [
+            "adc",
+            "mid"
+        ],
+        "difficulty": 5,
+        "nameKo": "트리스타나"
+    },
+    {
+        "name": "Trundle",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Trundle.png",
+        "lines": [
+            "jungle",
+            "top"
+        ],
+        "difficulty": 4,
+        "nameKo": "트런들"
+    },
+    {
+        "name": "Tryndamere",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Tryndamere.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 5,
+        "nameKo": "트린다미어"
+    },
+    {
+        "name": "TwistedFate",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/TwistedFate.png",
+        "lines": [
+            "mid"
+        ],
+        "difficulty": 6,
+        "nameKo": "트위스티드 페이트"
+    },
+    {
+        "name": "Twitch",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Twitch.png",
+        "lines": [
+            "adc"
+        ],
+        "difficulty": 6,
+        "nameKo": "트위치"
+    },
+    {
+        "name": "Udyr",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Udyr.png",
+        "lines": [
+            "jungle",
+            "top"
+        ],
+        "difficulty": 5,
+        "nameKo": "우디르"
+    },
+    {
+        "name": "Urgot",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Urgot.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 6,
+        "nameKo": "우르곳"
+    },
+    {
+        "name": "Varus",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Varus.png",
+        "lines": [
+            "adc"
+        ],
+        "difficulty": 6,
+        "nameKo": "바루스"
+    },
+    {
+        "name": "Vayne",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Vayne.png",
+        "lines": [
+            "adc",
+            "top"
+        ],
+        "difficulty": 8,
+        "nameKo": "베인"
+    },
+    {
+        "name": "Veigar",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Veigar.png",
+        "lines": [
+            "mid",
+            "support"
+        ],
+        "difficulty": 4,
+        "nameKo": "베이가"
+    },
+    {
+        "name": "Velkoz",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Velkoz.png",
+        "lines": [
+            "support",
+            "mid"
+        ],
+        "difficulty": 6,
+        "nameKo": "벨코즈"
+    },
+    {
+        "name": "Vex",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Vex.png",
+        "lines": [
+            "mid"
+        ],
+        "difficulty": 5,
+        "nameKo": "벡스"
+    },
+    {
+        "name": "Vi",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Vi.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 5,
+        "nameKo": "바이"
+    },
+    {
+        "name": "Viego",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Viego.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 7,
+        "nameKo": "비에고"
+    },
+    {
+        "name": "Viktor",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Viktor.png",
+        "lines": [
+            "mid"
+        ],
+        "difficulty": 7,
+        "nameKo": "빅토르"
+    },
+    {
+        "name": "Vladimir",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Vladimir.png",
+        "lines": [
+            "mid",
+            "top"
+        ],
+        "difficulty": 7,
+        "nameKo": "블라디미르"
+    },
+    {
+        "name": "Volibear",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Volibear.png",
+        "lines": [
+            "top",
+            "jungle"
+        ],
+        "difficulty": 5,
+        "nameKo": "볼리베어"
+    },
+    {
+        "name": "Warwick",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Warwick.png",
+        "lines": [
+            "jungle",
+            "top"
+        ],
+        "difficulty": 3,
+        "nameKo": "워윅"
+    },
+    {
+        "name": "Wukong",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/MonkeyKing.png",
+        "lines": [
+            "top",
+            "jungle"
+        ],
+        "difficulty": 5,
+        "nameKo": "오공"
+    },
+    {
+        "name": "Xayah",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Xayah.png",
+        "lines": [
+            "adc"
+        ],
+        "difficulty": 6,
+        "nameKo": "자야"
+    },
+    {
+        "name": "Xerath",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Xerath.png",
+        "lines": [
+            "mid",
+            "support"
+        ],
+        "difficulty": 7,
+        "nameKo": "제라스"
+    },
+    {
+        "name": "XinZhao",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/XinZhao.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 5,
+        "nameKo": "신 짜오"
+    },
+    {
+        "name": "Yasuo",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Yasuo.png",
+        "lines": [
+            "mid",
+            "top"
+        ],
+        "difficulty": 10,
+        "nameKo": "야스오"
+    },
+    {
+        "name": "Yone",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Yone.png",
+        "lines": [
+            "mid",
+            "top"
+        ],
+        "difficulty": 8,
+        "nameKo": "요네"
+    },
+    {
+        "name": "Yorick",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Yorick.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 4,
+        "nameKo": "요릭"
+    },
+    {
+        "name": "Yuumi",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Yuumi.png",
+        "lines": [
+            "support"
+        ],
+        "difficulty": 2,
+        "nameKo": "유미"
+    },
+    {
+        "name": "Zac",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Zac.png",
+        "lines": [
+            "jungle"
+        ],
+        "difficulty": 5,
+        "nameKo": "자크"
+    },
+    {
+        "name": "Zed",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Zed.png",
+        "lines": [
+            "mid"
+        ],
+        "difficulty": 8,
+        "nameKo": "제드"
+    },
+    {
+        "name": "Zeri",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Zeri.png",
+        "lines": [
+            "adc"
+        ],
+        "difficulty": 8,
+        "nameKo": "제리"
+    },
+    {
+        "name": "Ziggs",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Ziggs.png",
+        "lines": [
+            "mid",
+            "adc"
+        ],
+        "difficulty": 6,
+        "nameKo": "직스"
+    },
+    {
+        "name": "Zilean",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Zilean.png",
+        "lines": [
+            "support",
+            "mid"
+        ],
+        "difficulty": 5,
+        "nameKo": "질리언"
+    },
+    {
+        "name": "Zoe",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Zoe.png",
+        "lines": [
+            "mid"
+        ],
+        "difficulty": 8,
+        "nameKo": "조이"
+    },
+    {
+        "name": "Zyra",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Zyra.png",
+        "lines": [
+            "support",
+            "mid"
+        ],
+        "difficulty": 6,
+        "nameKo": "자이라"
+    },
+    {
+        "name": "Ambessa",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Ambessa.png",
+        "lines": [
+            "top",
+            "jungle"
+        ],
+        "difficulty": 7,
+        "nameKo": "암베사"
+    },
+    {
+        "name": "Aurora",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Aurora.png",
+        "lines": [
+            "mid",
+            "top"
+        ],
+        "difficulty": 8,
+        "nameKo": "오로라"
+    },
+    {
+        "name": "Gnar",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Gnar.png",
+        "lines": [
+            "top"
+        ],
+        "difficulty": 7,
+        "nameKo": "나르"
+    },
+    {
+        "name": "Yunara",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Yunara.png",
+        "lines": [
+            "adc"
+        ],
+        "difficulty": 7,
+        "nameKo": "유나라"
+    },
+    {
+        "name": "Zaahen",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.11.1/img/champion/Zaahen.png",
+        "lines": [
+            "top",
+            "mid"
+        ],
+        "difficulty": 8,
+        "nameKo": "자헨"
+    }
+]

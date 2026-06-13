@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>롤 피커</title>
+</head>
+
+<body>
+    <style>
+        .champions {
+            display: flex;
+            margin-bottom: 15px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .champions>div {
+            transition: all 2s;
+        }
+
+        .champions .frame {
+            width: 116px;
+            height: 110px;
+            border: 10px solid red;
+            position: absolute;
+        }
+
+        .actions button {
+            background: blue;
+            color: white;
+            border: 0;
+            padding: 20px 50px;
+        }
+    </style>
+
+    <div id="app">
+        <h1>롤 챔피언 랜덤 피커</h1>
+        <div class="filter">
+            <div class="item">
+                <label for="">라인</label>
+                <select name="" id="champLine">
+                    <option value="">없음</option>
+                    <option value="top">탑</option>
+                    <option value="mid">미드</option>
+                    <option value="jungle">정글</option>
+                    <option value="adc">원딜</option>
+                    <option value="support">서폿</option>
+                </select>
+            </div>
+        </div>
+        <div class="champions">
+        </div>
+        <div class="actions">
+            <button onclick="load()">챔프 불러오기</button>
+            <button onclick="pick()">챔프 뽑기</button>
+        </div>
+    </div>
+
+    <script>
+        let totalChampions = [];
+
+        load();
+
+        function pick() {
+            let line = document.querySelector("#champLine").value; // 사용자가 선택한 라인
+
+            if (line === "") {
+                alert("라인을 선택해주세요")
+                return;
+            }
+
+            let filteredChampionIndexes = []; // 필터링된 챔프의 인덱스 배열
+
+            for (let i = 0; i < totalChampions.length; i++) {
+                if (totalChampions[i].lines.includes(line)) { // 해당 라인에 포함되면
+                    filteredChampionIndexes.push(i);
+                }
+            }
+
+            let count = filteredChampionIndexes.length;
+            let randomIndex = Math.floor(Math.random() * count);
+            let marginLeft = (128 * filteredChampionIndexes[randomIndex] * -1) + "px";
+
+            document.querySelector(".champions > div:first-child").style.marginLeft = marginLeft;
+            // document.querySelector("#Garen").style.marginLeft = "-282px";
+
+            setTimeout(() => {
+                let html = document.querySelector(".champions").innerHTML
+                html = html + `<div class="frame"></div>`
+                document.querySelector(".champions").innerHTML = html;
+            }, 2000)
+        }
+
+        function load() {
+            fetch("data.json").then((d1) => {
+                d1.json().then((d2) => {
+                    let html = "";
+                    totalChampions = d2;
+
+                    for (let i = 0; i < totalChampions.length; i++) {
+                        html = html + `
+                            <div id="${totalChampions[i].name}">
+                                <img src="${totalChampions[i].image}">
+                                <div>${totalChampions[i].nameKo}</div>
+                            </div>
+                        `;
+                    }
+
+
+                    document.querySelector(".champions").innerHTML = html;
+                })
+            })
+        }
+    </script>
+</body>
+
+</html>

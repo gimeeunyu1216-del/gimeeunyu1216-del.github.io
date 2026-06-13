@@ -13,6 +13,24 @@
             margin-bottom: 0;
         }
 
+        .search {
+            display: flex;
+            align-items: center;
+        }
+
+        .search input {
+            width: 100%;
+            height: 50px;
+            margin: 15px 0;
+            border: 0;
+        }
+
+        .search button {
+            width: 60px;
+            height: 50px;
+            border: 0;
+        }
+
         table {
             width: 100%;
         }
@@ -22,6 +40,10 @@
             border: 1px solid white;
             padding: 10px;
             text-align: center;
+        }
+
+        table td img {
+            height: 150px;
         }
     </style>
 </head>
@@ -37,12 +59,21 @@
         </div>
         <div>
             <h2 style="text-align:center;">🏆 랭킹</h2>
+
+            <div class="search">
+                <input id="keyword" type="text" onkeydown="keypress(event)">
+                <button onclick="search()">검색</button>
+            </div>
+
             <table id="data">
                 <thead>
                     <tr>
-                        <th>순위</th>
-                        <th>닉네임</th>
-                        <th>점수</th>
+                        <th>사진</th>
+                        <th>이름</th>
+                        <th>설명</th>
+                        <th>어택</th>
+                        <th>HP</th>
+                        <th>난이도</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -52,45 +83,64 @@
     </div>
 
     <script>
-        let champs = [
-            {
-                nickname: "비에고",
-                points: 500,
+        function keypress(e) {
+            if (e.key === 'Enter') {
+                search();
             }
-            , {
-                nickname: "아리",
-                points: 410
-            }
-            , {
-                nickname: "아트록스",
-                points: 300
-            }
-            , {
-                nickname: "에코",
-                points: 200
-            }
-            , {
-                nickname: "신짜오",
-                points: 150
-            }
-        ];
-
-
-        let b = "";
-
-        for (let id = 0; id < champs.length; id++) {
-            b = b + `
-            <tr>
-                <td>${id + 1}</td>
-                <td>${champs[id].nickname}</td>
-                <td>${champs[id].points}</td>
-            </tr>
-            `;
         }
 
-        document.querySelector("#data")
-            .querySelector("tbody")
-            .innerHTML = b;
+        function search() {
+            let myKeyword = document.querySelector("#keyword").value;
+
+            let url = "https://ddragon.leagueoflegends.com/cdn/16.10.1/data/ko_KR/champion.json";
+
+            fetch(url).then(d1 => {
+                d1.json().then(d2 => {
+                    let result = [];
+                    let champions = Object.keys(d2.data);
+
+                    for (let i = 0; i < champions.length; i++) {
+                        let name = champions[i];
+
+                        if (d2.data[name].blurb.includes(myKeyword) || d2.data[name].name.includes(myKeyword)) {
+                            result.push({
+                                image: d2.data[name].image.full,
+                                blurb: d2.data[name].blurb,
+                                name: d2.data[name].name,
+                                attack: d2.data[name].stats.attackdamage,
+                                hp: d2.data[name].stats.hp,
+                                difficulty: d2.data[name].info.difficulty,
+                            })
+                        }
+                    }
+
+                    result.sort((a, b) => b.difficulty - a.difficulty);
+
+                    let b = "";
+
+                    for (let id = 0; id < result.length; id++) {
+                        b = b + `
+                        <tr>
+                            <td>
+                                <img src="https://ddragon.leagueoflegends.com/cdn/15.22.1/img/champion/${result[id].image}">
+                                </td>
+                            <td>${result[id].name}</td>
+                            <td>${result[id].blurb.replace(myKeyword, '<span style="background-color:red;color:white">' + myKeyword + '</span>')}</td>
+                            <td>${result[id].attack}</td>
+                            <td>${result[id].hp}</td>
+                            <td>${result[id].difficulty}</td>
+                        </tr>
+                    `;
+                    }
+
+                    document.querySelector("#data")
+                        .querySelector("tbody")
+                        .innerHTML = b;
+                });
+            });
+        }
+
+        search();
     </script>
 </body>
 
